@@ -1,0 +1,551 @@
+{
+  "rootFolder": "/Users/christinemarquez/Desktop/litty-hub",
+  "analyzedAt": "2026-04-27T19:56:36.245Z",
+  "rootStructure": [
+    {
+      "name": "app",
+      "type": "dir"
+    },
+    {
+      "name": "components",
+      "type": "dir"
+    },
+    {
+      "name": "lib",
+      "type": "dir"
+    },
+    {
+      "name": "next-env.d.ts",
+      "type": "file",
+      "size": 251,
+      "lines": 7
+    },
+    {
+      "name": "next.config.ts",
+      "type": "file",
+      "size": 143,
+      "lines": 10
+    },
+    {
+      "name": "node_modules",
+      "type": "dir"
+    },
+    {
+      "name": "package-lock.json",
+      "type": "file",
+      "size": 56266,
+      "lines": 1748
+    },
+    {
+      "name": "package.json",
+      "type": "file",
+      "size": 483,
+      "lines": 24
+    },
+    {
+      "name": "postcss.config.mjs",
+      "type": "file",
+      "size": 68,
+      "lines": 6
+    },
+    {
+      "name": "public",
+      "type": "dir"
+    },
+    {
+      "name": "tsconfig.json",
+      "type": "file",
+      "size": 699,
+      "lines": 42
+    }
+  ],
+  "rootFileSnippets": {
+    "next-env.d.ts": [
+      "/// <reference types=\"next\" />",
+      "/// <reference types=\"next/image-types/global\" />",
+      "import \"./.next/dev/types/routes.d.ts\";",
+      "",
+      "// NOTE: This file should not be edited",
+      "// see https://nextjs.org/docs/app/api-reference/config/typescript for more information.",
+      ""
+    ],
+    "next.config.ts": [
+      "import type { NextConfig } from \"next\";",
+      "",
+      "const nextConfig: NextConfig = {",
+      "images: {",
+      "unoptimized: true",
+      "}",
+      "};",
+      "",
+      "export default nextConfig;",
+      ""
+    ],
+    "package-lock.json": [
+      "{",
+      "\"name\": \"litty-hub\",",
+      "\"version\": \"0.1.0\",",
+      "\"lockfileVersion\": 3,",
+      "\"requires\": true,",
+      "\"packages\": {",
+      "\"\": {",
+      "\"name\": \"litty-hub\",",
+      "\"version\": \"0.1.0\",",
+      "\"dependencies\": {"
+    ],
+    "package.json": [
+      "{",
+      "\"name\": \"litty-hub\",",
+      "\"version\": \"0.1.0\",",
+      "\"private\": true,",
+      "\"scripts\": {",
+      "\"dev\": \"next dev --turbopack\",",
+      "\"build\": \"next build\",",
+      "\"start\": \"next start\"",
+      "},",
+      "\"dependencies\": {"
+    ],
+    "postcss.config.mjs": [
+      "export default {",
+      "plugins: {",
+      "\"@tailwindcss/postcss\": {}",
+      "}",
+      "};",
+      ""
+    ],
+    "tsconfig.json": [
+      "{",
+      "\"compilerOptions\": {",
+      "\"target\": \"ES2017\",",
+      "\"lib\": [",
+      "\"dom\",",
+      "\"dom.iterable\",",
+      "\"esnext\"",
+      "],",
+      "\"allowJs\": false,",
+      "\"skipLibCheck\": true,"
+    ]
+  },
+  "importantFolders": [
+    {
+      "path": "app",
+      "category": "frontend",
+      "fileCount": 11,
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "path": "app/services",
+      "category": "backend",
+      "fileCount": 1,
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "path": "components",
+      "category": "frontend",
+      "fileCount": 11,
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "path": "lib",
+      "category": "core",
+      "fileCount": 2,
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "path": "public",
+      "category": "assets",
+      "fileCount": 15
+    }
+  ],
+  "readmeParagraphs": {},
+  "totals": {
+    "numFiles": 45,
+    "numDirs": 19,
+    "totalSizeBytes": 12554301,
+    "totalLinesOfCode": 2131
+  },
+  "fileCategories": {
+    "source": 25,
+    "other": 17,
+    "config": 3
+  },
+  "linesOfCodePerLanguage": {
+    "TypeScript": 2131
+  },
+  "filesPerLanguage": {
+    "TypeScript": 25
+  },
+  "projectTypes": [
+    "JavaScript/Node.js"
+  ],
+  "frameworks": [
+    "React",
+    "Next.js"
+  ],
+  "entryPoints": [],
+  "ciCdTools": [],
+  "packageManagers": [
+    "npm/yarn"
+  ],
+  "topLevelDirectories": [
+    {
+      "name": "components",
+      "numFiles": 11,
+      "totalLoc": 854,
+      "dominantLanguage": "TypeScript"
+    },
+    {
+      "name": "app",
+      "numFiles": 11,
+      "totalLoc": 716,
+      "dominantLanguage": "TypeScript"
+    },
+    {
+      "name": "lib",
+      "numFiles": 2,
+      "totalLoc": 544,
+      "dominantLanguage": "TypeScript"
+    },
+    {
+      "name": "public",
+      "numFiles": 15,
+      "totalLoc": 0
+    }
+  ],
+  "detailedDirectories": [
+    {
+      "path": "components",
+      "name": "components",
+      "level": 1,
+      "numFiles": 11,
+      "totalLoc": 854,
+      "dominantLanguage": "TypeScript",
+      "category": "General",
+      "description": "General module with 11 files (TypeScript)",
+      "subdirectories": []
+    },
+    {
+      "path": "app",
+      "name": "app",
+      "level": 1,
+      "numFiles": 11,
+      "totalLoc": 716,
+      "dominantLanguage": "TypeScript",
+      "category": "Application",
+      "description": "Application module with 11 files (TypeScript)",
+      "subdirectories": [
+        {
+          "path": "app/brands",
+          "name": "brands",
+          "level": 2,
+          "numFiles": 2,
+          "totalLoc": 246,
+          "dominantLanguage": "TypeScript",
+          "category": "General",
+          "description": "General module with 2 files (TypeScript)",
+          "subdirectories": [
+            {
+              "path": "app/brands/[slug]",
+              "name": "[slug]",
+              "level": 3,
+              "numFiles": 1,
+              "totalLoc": 152,
+              "dominantLanguage": "TypeScript",
+              "category": "General",
+              "description": "General module with 1 files (TypeScript)",
+              "subdirectories": []
+            }
+          ]
+        },
+        {
+          "path": "app/community",
+          "name": "community",
+          "level": 2,
+          "numFiles": 2,
+          "totalLoc": 111,
+          "dominantLanguage": "TypeScript",
+          "category": "General",
+          "description": "General module with 2 files (TypeScript)",
+          "subdirectories": [
+            {
+              "path": "app/community/[slug]",
+              "name": "[slug]",
+              "level": 3,
+              "numFiles": 1,
+              "totalLoc": 59,
+              "dominantLanguage": "TypeScript",
+              "category": "General",
+              "description": "General module with 1 files (TypeScript)",
+              "subdirectories": []
+            }
+          ]
+        },
+        {
+          "path": "app/deals",
+          "name": "deals",
+          "level": 2,
+          "numFiles": 1,
+          "totalLoc": 36,
+          "dominantLanguage": "TypeScript",
+          "category": "General",
+          "description": "General module with 1 files (TypeScript)",
+          "subdirectories": []
+        },
+        {
+          "path": "app/marketplace",
+          "name": "marketplace",
+          "level": 2,
+          "numFiles": 1,
+          "totalLoc": 33,
+          "dominantLanguage": "TypeScript",
+          "category": "General",
+          "description": "General module with 1 files (TypeScript)",
+          "subdirectories": []
+        },
+        {
+          "path": "app/services",
+          "name": "services",
+          "level": 2,
+          "numFiles": 1,
+          "totalLoc": 33,
+          "dominantLanguage": "TypeScript",
+          "category": "Service",
+          "description": "Service module with 1 files (TypeScript)",
+          "subdirectories": []
+        }
+      ]
+    },
+    {
+      "path": "lib",
+      "name": "lib",
+      "level": 1,
+      "numFiles": 2,
+      "totalLoc": 544,
+      "dominantLanguage": "TypeScript",
+      "category": "Library",
+      "description": "Library module with 2 files (TypeScript)",
+      "subdirectories": []
+    },
+    {
+      "path": "public",
+      "name": "public",
+      "level": 1,
+      "numFiles": 15,
+      "totalLoc": 0,
+      "category": "General",
+      "description": "General module with 15 files",
+      "subdirectories": [
+        {
+          "path": "public/brands",
+          "name": "brands",
+          "level": 2,
+          "numFiles": 15,
+          "totalLoc": 0,
+          "category": "General",
+          "description": "General module with 15 files",
+          "subdirectories": [
+            {
+              "path": "public/brands/shared",
+              "name": "shared",
+              "level": 3,
+              "numFiles": 5,
+              "totalLoc": 0,
+              "category": "Infrastructure",
+              "description": "Infrastructure module with 5 files",
+              "subdirectories": []
+            },
+            {
+              "path": "public/brands/great-wall",
+              "name": "great-wall",
+              "level": 3,
+              "numFiles": 3,
+              "totalLoc": 0,
+              "category": "General",
+              "description": "General module with 3 files",
+              "subdirectories": []
+            },
+            {
+              "path": "public/brands/litty",
+              "name": "litty",
+              "level": 3,
+              "numFiles": 3,
+              "totalLoc": 0,
+              "category": "General",
+              "description": "General module with 3 files",
+              "subdirectories": []
+            },
+            {
+              "path": "public/brands/jj-pro",
+              "name": "jj-pro",
+              "level": 3,
+              "numFiles": 2,
+              "totalLoc": 0,
+              "category": "General",
+              "description": "General module with 2 files",
+              "subdirectories": []
+            },
+            {
+              "path": "public/brands/jj-totes",
+              "name": "jj-totes",
+              "level": 3,
+              "numFiles": 2,
+              "totalLoc": 0,
+              "category": "General",
+              "description": "General module with 2 files",
+              "subdirectories": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "architecturalInsights": {
+    "coreApplications": [
+      {
+        "path": "app",
+        "name": "app",
+        "level": 1,
+        "numFiles": 11,
+        "totalLoc": 716,
+        "dominantLanguage": "TypeScript",
+        "category": "Application",
+        "description": "Application module with 11 files (TypeScript)",
+        "subdirectories": [
+          {
+            "path": "app/brands",
+            "name": "brands",
+            "level": 2,
+            "numFiles": 2,
+            "totalLoc": 246,
+            "dominantLanguage": "TypeScript",
+            "category": "General",
+            "description": "General module with 2 files (TypeScript)",
+            "subdirectories": [
+              {
+                "path": "app/brands/[slug]",
+                "name": "[slug]",
+                "level": 3,
+                "numFiles": 1,
+                "totalLoc": 152,
+                "dominantLanguage": "TypeScript",
+                "category": "General",
+                "description": "General module with 1 files (TypeScript)",
+                "subdirectories": []
+              }
+            ]
+          },
+          {
+            "path": "app/community",
+            "name": "community",
+            "level": 2,
+            "numFiles": 2,
+            "totalLoc": 111,
+            "dominantLanguage": "TypeScript",
+            "category": "General",
+            "description": "General module with 2 files (TypeScript)",
+            "subdirectories": [
+              {
+                "path": "app/community/[slug]",
+                "name": "[slug]",
+                "level": 3,
+                "numFiles": 1,
+                "totalLoc": 59,
+                "dominantLanguage": "TypeScript",
+                "category": "General",
+                "description": "General module with 1 files (TypeScript)",
+                "subdirectories": []
+              }
+            ]
+          },
+          {
+            "path": "app/deals",
+            "name": "deals",
+            "level": 2,
+            "numFiles": 1,
+            "totalLoc": 36,
+            "dominantLanguage": "TypeScript",
+            "category": "General",
+            "description": "General module with 1 files (TypeScript)",
+            "subdirectories": []
+          },
+          {
+            "path": "app/marketplace",
+            "name": "marketplace",
+            "level": 2,
+            "numFiles": 1,
+            "totalLoc": 33,
+            "dominantLanguage": "TypeScript",
+            "category": "General",
+            "description": "General module with 1 files (TypeScript)",
+            "subdirectories": []
+          },
+          {
+            "path": "app/services",
+            "name": "services",
+            "level": 2,
+            "numFiles": 1,
+            "totalLoc": 33,
+            "dominantLanguage": "TypeScript",
+            "category": "Service",
+            "description": "Service module with 1 files (TypeScript)",
+            "subdirectories": []
+          }
+        ]
+      }
+    ],
+    "entryPointDetails": [],
+    "serviceArchitecture": {
+      "microservices": [],
+      "monoliths": [],
+      "libraries": [
+        "lib"
+      ]
+    },
+    "layeredArchitecture": {
+      "presentation": [],
+      "business": [],
+      "data": [],
+      "infrastructure": []
+    }
+  },
+  "largeFiles": [
+    {
+      "path": "public/brands/great-wall/showroom.jpeg",
+      "sizeMb": 2.69
+    },
+    {
+      "path": "public/brands/shared/collage.png",
+      "sizeMb": 2.43
+    },
+    {
+      "path": "public/brands/litty/monogram-glow.png",
+      "sizeMb": 1.98
+    },
+    {
+      "path": "public/brands/shared/ll.png",
+      "sizeMb": 1.27
+    }
+  ],
+  "dependencies": {
+    "production": [
+      "lucide-react",
+      "next",
+      "react",
+      "react-dom"
+    ],
+    "development": [
+      "@tailwindcss/postcss",
+      "@types/node",
+      "@types/react",
+      "tailwindcss",
+      "typescript"
+    ],
+    "total": 9
+  },
+  "complexity": {
+    "averageFileSize": 47.355555555555554,
+    "maxFileSize": 28206.6944,
+    "nestedDepth": 0,
+    "estimatedComplexity": "low"
+  }
+}
