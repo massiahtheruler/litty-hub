@@ -25,9 +25,10 @@ export const metadata: Metadata = {
   description:
     "Lifestyle umbrella brand and ecosystem hub for Litty Co., JJ Totes, Great Wall of Legends, and JJ Pro Service.",
   icons: {
-    icon: "/brands/shared/monogram%20official.png",
-    shortcut: "/brands/shared/monogram%20official.png",
-    apple: "/brands/shared/monogram%20official.png"
+    icon: "/brands/shared/Untitled%20(8).png",
+    shortcut: "/brands/shared/Untitled%20(8).png",
+    apple: "/brands/shared/Untitled%20(8).png",
+
   }
 };
 
