@@ -23,7 +23,12 @@ const labelFont = Bebas_Neue({
 export const metadata: Metadata = {
   title: "Litty Co.",
   description:
-    "Lifestyle umbrella brand and ecosystem hub for Litty Co., JJ Totes, Great Wall of Legends, and JJ Pro Service."
+    "Lifestyle umbrella brand and ecosystem hub for Litty Co., JJ Totes, Great Wall of Legends, and JJ Pro Service.",
+  icons: {
+    icon: "/brands/shared/monogram%20official.png",
+    shortcut: "/brands/shared/monogram%20official.png",
+    apple: "/brands/shared/monogram%20official.png"
+  }
 };
 
 export default function RootLayout({

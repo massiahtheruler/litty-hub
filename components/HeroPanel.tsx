@@ -7,9 +7,12 @@ import { useState } from "react";
 import { ArrowRight, Flame, Sparkles } from "lucide-react";
 
 const initialState = {
-  panel: { transform: "perspective(1600px) rotateX(0deg) rotateY(0deg) translateY(0px)" },
+  panel: {
+    transform:
+      "perspective(1600px) rotateX(0deg) rotateY(0deg) translateY(0px)",
+  },
   artwork: { transform: "translate3d(0px,0px,0px) scale(1)" },
-  glow: { transform: "translate3d(0px,0px,0px) scale(1)" }
+  glow: { transform: "translate3d(0px,0px,0px) scale(1)" },
 };
 
 export default function HeroPanel() {
@@ -26,14 +29,14 @@ export default function HeroPanel() {
 
     setParallax({
       panel: {
-        transform: `perspective(1600px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-2px)`
+        transform: `perspective(1600px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-2px)`,
       },
       artwork: {
-        transform: `translate3d(${shiftX.toFixed(2)}px,${shiftY.toFixed(2)}px,0px) scale(1.02)`
+        transform: `translate3d(${shiftX.toFixed(2)}px,${shiftY.toFixed(2)}px,0px) scale(1.02)`,
       },
       glow: {
-        transform: `translate3d(${(shiftX * 0.58).toFixed(2)}px,${(shiftY * 0.45).toFixed(2)}px,0px) scale(1.05)`
-      }
+        transform: `translate3d(${(shiftX * 0.58).toFixed(2)}px,${(shiftY * 0.45).toFixed(2)}px,0px) scale(1.05)`,
+      },
     });
   };
 
@@ -56,9 +59,9 @@ export default function HeroPanel() {
             The hub where all four lanes feel like one world.
           </h1>
           <p className="hero-body">
-            Litty is the attention engine. A cinematic umbrella brand with community,
-            curated recommendations, light commerce, and soft handoffs into the
-            ecosystem below it.
+            Litty is the attention engine. A cinematic umbrella brand with
+            community, curated recommendations, light commerce, and soft
+            handoffs into the ecosystem below it.
           </p>
           <div className="hero-actions">
             <Link href="/brands" className="hero-button hero-button--primary">
@@ -82,12 +85,18 @@ export default function HeroPanel() {
         </div>
 
         <div className="hero-panel__art">
-          <div className="hero-orb hero-orb--red" style={parallax.glow as CSSProperties} />
+          <div
+            className="hero-orb hero-orb--red"
+            style={parallax.glow as CSSProperties}
+          />
           <div className="hero-orb hero-orb--gold" />
-          <div className="hero-media-card" style={parallax.artwork as CSSProperties}>
+          <div
+            className="hero-media-card"
+            style={parallax.artwork as CSSProperties}
+          >
             <div className="ghost-monogram" />
             <Image
-              src="/brands/litty/wordmark.png"
+              src="/brands/shared/silver no bg.png"
               alt="Litty Co."
               width={620}
               height={440}

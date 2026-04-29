@@ -13,7 +13,7 @@ import {
   marqueePhrases,
   marketplaceItems,
   serviceOffers,
-  storyPosts
+  storyPosts,
 } from "@/lib/content";
 
 export default function HomePage() {
@@ -49,9 +49,9 @@ export default function HomePage() {
             <Image
               src="/brands/shared/connects.png"
               alt="Shared monogram system across the four brands"
-              width={1200}
-              height={720}
-              className="h-full w-full object-cover"
+              width={1500}
+              height={1000}
+              className="h-[120%] w-[1000vw] -translate-y-32"
             />
           </div>
         </div>
@@ -148,7 +148,9 @@ export default function HomePage() {
           {dealCampaigns.map((deal) => (
             <article key={deal.code} className="surface-panel deal-card">
               <div className="deal-card__row">
-                <p className="deal-card__status">{deal.status.replace("-", " ")}</p>
+                <p className="deal-card__status">
+                  {deal.status.replace("-", " ")}
+                </p>
                 <p className="deal-card__window">{deal.window}</p>
               </div>
               <h3 className="deal-card__title">{deal.title}</h3>
@@ -171,7 +173,8 @@ export default function HomePage() {
             </h2>
             <p className="section-body max-w-2xl">
               Litty already has the right structure for stronger community,
-              approved sellers, editorial distribution, and deeper motion passes.
+              approved sellers, editorial distribution, and deeper motion
+              passes.
             </p>
           </div>
           <div className="cta-band__actions">
