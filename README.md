@@ -24,12 +24,27 @@ The core problem here was hierarchy. I wanted one clear umbrella identity, separ
 
 ## Project Preview
 
-If I were walking someone through the build quickly, these are the screens that carry the project:
+If I were walking someone through the build quickly, these are the screens that carry the project: the hub homepage, the opening motion, the split About/Contact modal, the marketplace preview surface, and the seeded community layer that makes the ecosystem feel lived in.
 
-- **Hub homepage:** umbrella identity, marquee, brand lanes, editorial preview, and campaign surface
-- **Brand detail pages:** separate personality per lane without losing the shared family structure
-- **Community story routes:** seeded editorial pages that make the ecosystem feel lived in
-- **Split About/Contact modal:** one of the strongest interaction pieces in the project, with the motion doing real work instead of just decorating the UI
+![Litty Hub homepage hero](./readme-assets/litty-hero.png)
+
+The homepage carries the core job of the project fast: one umbrella identity, multiple brand lanes, a clear visual world, and enough structure underneath it that the ecosystem feels organized instead of crowded.
+
+![Litty Hub opening walkthrough](./readme-assets/lit-opening.gif)
+
+The opening walkthrough shows the part still images cannot fully explain. The motion, reveal pacing, and shell behavior are doing real work here to make the ecosystem feel cinematic without losing clarity.
+
+![Litty Hub split About and Contact modal](./readme-assets/litty-modal.png)
+
+The split About/Contact modal is one of the strongest interaction pieces in the build. It keeps utility inside the same brand system and uses motion to make the transition feel intentional instead of tacked on.
+
+![Litty Hub marketplace and services surface](./readme-assets/litty-services.png)
+
+The marketplace surface shows how I approached the commercial side honestly: not pretending the backend is finished, but still giving product, service, and offer layers a clear place to live.
+
+![Litty Hub community page](./readme-assets/litty-community.png)
+
+The community page is important because it proves the build is more than a polished shell. The route structure is already ready for editorial content, brand storytelling, and ecosystem depth.
 
 ## Architecture Snapshot
 
